@@ -1,0 +1,218 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Header Layout Styles
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#header {
+  height: 75vh;
+  background: #403CB4;
+  background-size: cover;
+  color: #fff;
+}
+
+#header,
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.9em;
+}
+
+.header-wrapper {
+  @include tablet {
+    line-height: 1.9em;
+    font-size: 1.05em;
+  }
+
+  @include desktop {
+    line-height: 2em;
+    font-size: 1.1em;
+  }
+  padding: 120px 0 60px 0;
+}
+
+.header-callout-btns {
+  margin-top: 20px;
+  button {
+    padding: 15px 30px;
+    border: 2px solid;
+    border-radius: 40px;
+    margin: 5px 10px;
+    font-weight: 900;
+    font-family: $primary-font-stack;
+    cursor: pointer;
+    border-color: #fff;
+    overflow: hidden;
+    outline: none;
+
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.64,.61,.07,.96);
+
+    @include mobile {
+      display: block;
+      margin: 10px auto 5px;
+    }
+
+  }
+  .btn-learn-more {
+    background-color: transparent;
+    // background-color: $learn-more-button-color;
+    // border-color: $learn-more-button-color;
+    a {
+      color: $learn-more-button-text-color;
+    }
+
+
+    &:hover {
+      // border: 1px solid #fff;
+      // color: #fff;
+      // font-size: 1.1rem;
+      // font-weight: bold;
+      // padding: 15px 40px;
+      transform: scale(1.02);
+      // background-color: $learn-more-button-color-hover;
+      // border-color: $learn-more-button-color-hover;
+    }
+  }
+  .btn-contact {
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    // background-color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    &:hover {
+      transform: scale(1.02);
+      background-color: transparent;
+      // background-color: darken(#fff, 7);
+      // border-color: darken(#fff, 7);
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+// #header {
+//   // background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+//
+//   background: url(../img/header-imgs/04.jpg) no-repeat center center fixed;
+//
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//
+//   background-size: cover;
+//   color: #fff;
+//
+//   h3 {
+//     opacity: 0.9;
+//   }
+//   // border-bottom-left-radius: 50% 10%;
+//   // border-bottom-right-radius: 50% 10%;
+//   //
+//   // @include tablet {
+//   //   border-bottom-left-radius: 50% 20%;
+//   //   border-bottom-right-radius: 50% 20%;
+//   // }
+//   //
+//   // @include mobile {
+//   //   border-bottom-left-radius: 50% 10%;
+//   //   border-bottom-right-radius: 50% 10%;
+//   // }
+//
+// }
+//
+// .header-wrapper {
+//   margin-top: 15px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   height: 90vh;
+//   font-size: 1.1rem;
+//   line-height: 1.5;
+//   @include tablet {
+//     padding-left: 30px;
+//     padding-right: 30px;
+//     font-size: 1.4rem;
+//     line-height: 1.7;
+//     height: 80vh;
+//   }
+//
+//   @include desktop {
+//     padding-left: 50px;
+//     padding-right: 50px;
+//     font-size: 1.8rem;
+//     line-height: 1.5;
+//     height: 80vh;
+//   }
+// }
+//
+// .header-callout-btns {
+//   margin-top: 20px;
+//   button {
+//     padding: 15px 30px;
+//     border: 2px solid;
+//     border-radius: 40px;
+//     margin: 5px 10px;
+//     font-weight: 900;
+//     font-family: $primary-font-stack;
+//     cursor: pointer;
+//     border-color: #fff;
+//     overflow: hidden;
+//     outline: none;
+//
+//     transition-duration: 0.3s;
+//     transition-property: all;
+//     transition-timing-function: cubic-bezier(.64,.61,.07,.96);
+//
+//     @include mobile {
+//       display: block;
+//       margin: 10px auto 5px;
+//     }
+//
+//   }
+//   .btn-learn-more {
+//     background-color: transparent;
+//     // background-color: $learn-more-button-color;
+//     // border-color: $learn-more-button-color;
+//     a {
+//       color: $learn-more-button-text-color;
+//     }
+//
+//
+//     &:hover {
+//       // border: 1px solid #fff;
+//       // color: #fff;
+//       // font-size: 1.1rem;
+//       // font-weight: bold;
+//       // padding: 15px 40px;
+//       transform: scale(1.02);
+//       // background-color: $learn-more-button-color-hover;
+//       // border-color: $learn-more-button-color-hover;
+//     }
+//   }
+//   .btn-contact {
+//     a {
+//       text-decoration: none;
+//       color: #fff;
+//     }
+//     // background-color: #fff;
+//     background-color: transparent;
+//     border-color: #fff;
+//     &:hover {
+//       transform: scale(1.02);
+//       background-color: transparent;
+//       // background-color: darken(#fff, 7);
+//       // border-color: darken(#fff, 7);
+//     }
+//
+//   }
+// }

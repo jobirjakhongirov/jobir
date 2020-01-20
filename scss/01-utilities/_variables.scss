@@ -1,0 +1,80 @@
+// In this file I am keeping all the sass variables for the website sections in order to make it modular
+
+// font
+$primary-font-stack: 'Didact Gothic', sans-serif;
+
+$section-padding: 75px 0;
+
+// navbar
+$navbar-height: 70px;
+$navbar-height-mobile: 60px;
+$navbar-font-size: 1.2em;
+$navbar-background-color: rgba(255, 255, 255, 0.97);
+$navbar-font-color: #717f86;
+$navbar-font-color-hover: darken(#828990, 50);
+
+// header
+$header-padding: 110px 0;
+$learn-more-button-color: rgba(2, 200, 115, 255);
+$learn-more-button-color-hover: darken($learn-more-button-color, 4);
+$learn-more-button-text-color: #fff;
+
+// screen-sizes
+$mobile-max-width: 768px;
+$tablet-width: 769px;
+$desktop-width: 1024px;
+
+// colors
+$color-input-background: #e8ebed;
+$color-btn-green: #5fcf80;
+$color-text: #717f86;
+$color-text-black: #000;
+$color-footer: #f9fafa;
+
+$blue-light: #42b4d6;
+
+$white: #fff;
+$green-dark: #2D9676;
+$green-light: #5BB860;
+
+$violet-dark: #645A7E;
+$violet-light: #80438E;
+
+
+// HEADER
+
+$header-background-color: #838CC7;
+$btn-learn-more-color: #23bbae;
+
+
+
+
+
+
+// FOOTER COLORS
+$background: #EDEFF1;
+$color-h1: #3A4550; //black
+$color-svg-fill: #B7BEC4; //grey
+$color-a-link: #A8EFFF; //blue
+$color-footer-text: #BBBDC3;
+
+
+
+$blue: #387BC8;
+$light-blue: #558ED1;
+$light-blue-line: #588FD1;
+
+
+
+
+// TECHDEGREE
+$blue01: #1F99D9;//#388CD1; //#38ACD1; // front-end development
+$red01: #C25A75; // full stack JavaScript
+$pink01: #F192B0; // python web development
+$green01: #54BBB4; // ios development
+$text-green: #55CB80;
+
+
+
+
+$green-4: #3FB03B;

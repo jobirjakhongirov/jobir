@@ -1,0 +1,41 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~
+  Hamburger Button Styles
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.main-item {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  z-index: 10000000000;
+}
+
+.line {
+  right: 0;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #000;
+  border-radius: 8px;
+  transition: all cubic-bezier(0.25, 0.1, 0.11, 1.7) 0.3s;
+}
+
+.line01 {
+  top: 10%;
+}
+
+.line02 {
+  top: 40%;
+}
+
+.line03 {
+  top: 70%;
+}
+
+.hamburger-menu.close .line01 {
+  transform: rotate(45deg);
+  top: 40%;
+}
+
+.hamburger-menu.close .line02, .hamburger-menu.close .line03 {
+  transform: rotate(-45deg);
+  top: 40%;
+}

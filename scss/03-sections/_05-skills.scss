@@ -1,0 +1,177 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      Skills Section Styles
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#skills {
+  background-color: #f9fafa;
+  padding: $section-padding;
+
+  h3 {
+    padding: 10px 0;
+  }
+  h1 {
+    padding-bottom: 10px;
+  }
+}
+
+.skills-container {
+  padding: 40px;
+  display: grid;
+
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.64,.61,.07,.96);
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:  "languages"
+                          "frameworks"
+                          "tools";
+    grid-row-gap: 20px;
+  }
+
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:  "languages frameworks"
+                          "tools tools";
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+  }
+
+  @include desktop {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:  "languages tools frameworks";
+  }
+
+  & > div {
+    // width: minmax(1fr, 300px);
+    // border: 1px solid green;
+  }
+
+
+}
+
+
+.languages {
+  grid-area: languages;
+}
+
+.frameworks {
+  grid-area: frameworks;
+}
+
+.tools {
+  grid-area: tools;
+}
+
+
+// List item's styles
+.list {
+  // border: 1px solid blue;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+
+
+  li {
+    border-width: .1px;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.54,.53,.26,1.83);
+
+    &:hover {
+      transform: scale(1.2);
+      border-radius: 10px;
+    }
+  }
+  li a {
+    font-weight: 900;
+  }
+  li {
+    border-color: pink;
+  }
+
+  .list-blue {
+    border-color: rgba(31,153,217,1);
+
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(31,153,217,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(31,153,217,1);
+    box-shadow: 0px 0px 10px 2px rgba(31,153,217,1);
+
+
+    a {
+      color: $blue01;
+    }
+  }
+
+  .list-red {
+    border-color: rgba(194,90,117,1);
+
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(194,90,117,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(194,90,117,1);
+    box-shadow: 0px 0px 10px 2px rgba(194,90,117,1);
+    a {
+      color: #C25A75;
+    }
+  }
+
+  .list-green {
+    border-color: rgba(85,203,128,1);
+
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(85,203,128,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(85,203,128,1);
+    box-shadow: 0px 0px 10px 2px rgba(85,203,128,1);
+
+    a {
+      color: #55CB80;
+    }
+  }
+
+  .list-pink {
+    border-color: rgba(195,140,212,0.85);
+
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(195,140,212,0.85);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(195,140,212,0.85);
+    box-shadow: 0px 0px 8px 3px rgba(195,140,212,0.85);
+
+    a {
+      color: #c38cd4;;
+    }
+  }
+
+  .list-purple {
+    border-color: rgba(128,67,142,1);
+
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(128,67,142,1);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(128,67,142,1);
+    box-shadow: 0px 0px 8px 3px rgba(128,67,142,1);
+
+    a {
+      color: #80438E;
+    }
+  }
+
+  .mongo-icon {
+    height: 30px;
+  }
+
+}
+
+
+.skills-icon {
+  width: 30px;
+  margin-right: 10px;
+}

@@ -1,0 +1,36 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~
+    Base Element Styles
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font-stack;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: $color-text-black;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+p,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: none;
+}

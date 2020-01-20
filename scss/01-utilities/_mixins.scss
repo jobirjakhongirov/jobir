@@ -1,0 +1,31 @@
+// MEDIA QUERIES
+
+// screen-size for mobile phones
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+// screen-size for tablets
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+// screen-size for desktop and laptop
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+// NAVBAR FLEXBOX
+// centers the list elements inside the mobile-nav and desktop-nav
+@mixin navbar-flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

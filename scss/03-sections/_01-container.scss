@@ -1,0 +1,21 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .container layout
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.container {
+  // border: 1px solid red;
+  width: 92%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    width: 95%;
+  }
+
+  @include desktop {
+    width: 95%;
+    max-width: 1150px;
+  }
+}
