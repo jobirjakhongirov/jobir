@@ -1,7 +1,8 @@
 // In this file I am keeping all the sass variables for the website sections in order to make it modular
 
 // font
-$primary-font-stack: 'Didact Gothic', sans-serif;
+// $primary-font-stack: 'Didact Gothic', sans-serif;
+$primary-font-stack: 'Rubik', sans-serif;
 
 $section-padding: 75px 0;
 
@@ -34,47 +35,33 @@ $color-footer: #f9fafa;
 $blue-light: #42b4d6;
 
 $white: #fff;
-$green-dark: #2D9676;
-$green-light: #5BB860;
+$green-dark: #2d9676;
+$green-light: #5bb860;
 
-$violet-dark: #645A7E;
-$violet-light: #80438E;
-
+$violet-dark: #645a7e;
+$violet-light: #80438e;
 
 // HEADER
 
-$header-background-color: #838CC7;
+$header-background-color: #838cc7;
 $btn-learn-more-color: #23bbae;
 
-
-
-
-
-
 // FOOTER COLORS
-$background: #EDEFF1;
-$color-h1: #3A4550; //black
-$color-svg-fill: #B7BEC4; //grey
-$color-a-link: #A8EFFF; //blue
-$color-footer-text: #BBBDC3;
+$background: #edeff1;
+$color-h1: #3a4550; //black
+$color-svg-fill: #b7bec4; //grey
+$color-a-link: #a8efff; //blue
+$color-footer-text: #bbbdc3;
 
-
-
-$blue: #387BC8;
-$light-blue: #558ED1;
-$light-blue-line: #588FD1;
-
-
-
+$blue: #387bc8;
+$light-blue: #558ed1;
+$light-blue-line: #588fd1;
 
 // TECHDEGREE
-$blue01: #1F99D9;//#388CD1; //#38ACD1; // front-end development
-$red01: #C25A75; // full stack JavaScript
-$pink01: #F192B0; // python web development
-$green01: #54BBB4; // ios development
-$text-green: #55CB80;
+$blue01: #1f99d9; //#388CD1; //#38ACD1; // front-end development
+$red01: #c25a75; // full stack JavaScript
+$pink01: #f192b0; // python web development
+$green01: #54bbb4; // ios development
+$text-green: #55cb80;
 
-
-
-
-$green-4: #3FB03B;
+$green-4: #3fb03b;
